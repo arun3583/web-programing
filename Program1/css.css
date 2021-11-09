@@ -1,0 +1,16 @@
+body {
+  background-color: #dcbbb4;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+}
+
+th {
+   text-align:left;
+}
+td {
+   text-align:center;
+}
+
