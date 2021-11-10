@@ -1,0 +1,71 @@
+<html>
+<head><title>client server concept</title>
+<body><center>
+<h1 id="top">The Client-server concept</h1>
+<img src="/var/nfs/.home/mcac/mcac22/Downloads/images.png"></center><a align="center" href="#Client-host and server-host">Client-host and server-host</a><br><a align="center" href="#HTTP requests">HTTP requests</a><br><a align="center" href="#World Wide Web">World Wide Web</a><br>
+<a align="center" href="#WEB SERVER">WEB SERVER</a><br><a align="center" href="#WEB BROWSER">WEB BROWSER</a><br>
+<p>
+Client–server concept is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.[1] Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system. A server host runs one or more server programs, which share their resources with clients. A client usually does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests. Examples of computer applications that use the client–server model are email, network printing, and the World Wide Web. <br><h2>Client and server role</h2>
+
+The client-server" characteristic describes the relationship of cooperating programs in an application. The server component provides a function or service to one or many clients, which initiate requests for such services. Servers are classified by the services they provide. For example, a web server serves web pages and a file server serves computer files. A shared resource may be any of the server computer's software and electronic components, from programs and data to processors and storage devices. The sharing of resources of a server constitutes a service.
+
+Whether a computer is a client, a server, or both, is determined by the nature of the application that requires the service functions. For example, a single computer can run web server and file server software at the same time to serve different data to clients making different kinds of requests. Client software can also communicate with server software within the same computer.[2] Communication between servers, such as to synchronize data, is sometimes called inter-server or server-to-server communication. <br><h2 id="Client-host and server-host">Client-host and server-host</H2>
+
+Client-host and server-host have subtly different meanings than client and server. A host is any computer connected to a network. Whereas the words server and client may refer either to a computer or to a computer program, server-host and user-host always refer to computers. The host is a versatile, multifunction computer; clients and servers are just programs that run on a host. In the client–server model, a server is more likely to be devoted to the task of serving.
+
+An early use of the word client occurs in "Separating Data from Function in a Distributed File System", a 1978 paper by Xerox PARC computer scientists Howard Sturgis, James Mitchell, and Jay Israel. The authors are careful to define the term for readers, and explain that they use it to distinguish between the user and the user's network node (the client).[7] By 1992, the word server had entered into general parlance<br><a align="center" href="#top">go to top</a><BR><h2 id="HTTP requests">HTTP requests</h2>
+
+An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server.
+
+To make the request, the client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource. The components of a URL explains URLs.
+A correctly composed HTTP request contains the following elements:
+
+    A request line.
+    A series of HTTP headers, or header fields.
+    A message body, if needed.
+
+Each HTTP header is followed by a carriage return line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used (to give an empty line), and then any message body begins.<br><a align="center" href="#top">go to top</a><h2 id="World Wide Web">World Wide Web</h2>
+
+The World Wide Web—commonly referred to as WWW, W3, or the Web—is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.<br>A web server is a computer that runs websites. It's a computer program that distributes web pages as they are requisitioned. The basic objective of the web server is to store, process and deliver web pages to the users. This intercommunication is done using Hypertext Transfer Protocol (HTTP). These web pages are mostly static content that includes HTML documents, images, style sheets, test etc. Apart from HTTP, a web server also supports SMTP (Simple Mail transfer Protocol) and FTP (File Transfer Protocol) protocol for emailing and for file transfer and storage.A web browser (commonly referred to as a browser) is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device..........................................................................<br>
+<a align="center" href="#top">go to top</a><H2>Components of web-based applications</H2>
+
+All web-based database applications have three primary components: A web browser (or client), a web application server, and a database server.
+
+Web-based database applications rely on a database server, which provides the data for the application. The database server sometimes also provides business logic in the form of stored procedures. Stored procedures can offer significant performance advantages, especially in a multi-tiered architecture. In addition to database servers, other enterprise information system components include IMS databases, IBM® MQ messages, and CICS® records.
+
+The clients handle the presentation logic, which controls the way in which users interact with the application. In some cases, the client validates user-provided input. Web applications sometimes integrate Java™ applets into the client-side logic to improve the presentation layer.
+
+<h2>Applet</h2>
+    A Java program that is part of a Hypertext Markup Language (HTML) page. (HTML is the standard method for presenting web data to users.) Applets work with Java-enabled browsers, such as Microsoft Internet Explorer; they are loaded when the HTML page is processed.
+
+Web application servers manage the business logic. The business logic, typically written in Java, supports multitiered applications. The web application server can manage requests from a variety of remote clients. The web application layer might include JavaServer Pages (JSP) files, Java servlets, Enterprise JavaBeans (EJB) components, or web services.
+
+<h2>JSP</h2>
+    A technology that provides a consistent way to extend web server functionality and create dynamic web content. The web applications that you develop with JSP technology are server and platform independent.
+Servlet
+    A Java program that responds to client requests and generates responses dynamically.
+<h2>EJB</h2>
+    A component architecture for building distributed applications with the Java programming model. Server transactional components are reusable and provide portability across application servers.
+<h2>Web services</h2>
+    Self-contained, modular applications that provide an interface between the provider and the consumer of application resources. You can read more about web services later in this information.
+Dynamic Web Application
+When we talk about dynamic web applications, they are much more complex technically. For loading the data, databases are used. And every time user accesses the content, it is updated. They usually consist of the administration of CMS panels, the administrators control everything from here.
+<h2>Portal Web App</h2>
+In portal web apps, we understand it to be a kind of application whose many sections or categories are accessed through a home page. These apps can consist of things like:
+
+    Search engines
+    Forums
+    Chats
+    Areas that are accessed through registration
+    Emails.
+
+<h2>eCommerce Apps</h2>
+When the web application is an online store, its development is similar to that of an e-commerce or m-commerce site. Such kind of app development is a little complicated as it also includes electronic modes of payment like credit cards, net banking, PayPal, etc. Here the developer needs to develop an administrator panel. This panel is used for products’ listing, managing the inventory, updating or deleting them and much more.
+Content Management System
+Content management system (CMS) is very useful when ti comes to regular updating of content for the purpose of web application development. A CMS can be used by the administrator for modifications and updates. Such systems are usually user-friendly and intuitive.
+
+
+ </p>
+
+</body>
+</html>
